@@ -28,4 +28,4 @@ function tree(t) {
 // Recursively add each branch until reaching null:
 // (6 + null = 6) + 8 + (9 + null = 9) + 10 + (11 + null = 11) + 12 + (15 + null = 15) = 71
 
-// Complexity is 0(n) or linear.
+// Complexity is 0(log(n)) or logarithmic.
