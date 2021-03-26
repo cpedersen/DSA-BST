@@ -28,7 +28,8 @@ const tree = new BST();
 let numbersBST = [3, 1, 4, 6, 9, 2, 5, 7, 20, 21, 30];
 let x = 0;
 for (let value of numbersBST) {
-  tree.insert(value, null);
+  tree.insert(value, x);
+  //tree.insert(value, null);  // It doesn't matter if you replace null with x
   x++;
 }
 heightBST(tree);
