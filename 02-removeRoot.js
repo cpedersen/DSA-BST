@@ -21,7 +21,6 @@
 //               7
 
 // Before deletion of the root node
-//
 //                  E
 //                /    \
 //              A        S
